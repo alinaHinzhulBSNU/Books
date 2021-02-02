@@ -1,0 +1,418 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+form{
+    margin: auto;
+    width: 80%;
+}
+form .row{
+    margin: auto;
+}
+.row{
+    padding: 1%;
+}
+nav{
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+}
+table thead{
+    background-color: #9f98de;
+}
+table{
+    margin-top: 20px;
+}
+tbody tr:hover{
+    background-color: #89d0e2;
+}
+nav a{
+    font-weight: normal;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+nav a:hover{
+    text-decoration: none;
+    color: #f6ea74;
+}
+.icons{
+    text-align: right;
+    font-size: 22px;
+    padding-right: 1.5%;
+    color: white;
+}
+.icons i:hover{
+    color: #f6ea74;
+}
+.header, .footer{
+    background: #89d0e2;
+    width: 100%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+.footer{
+    margin-top: 10%;
+}
+.footer-text{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+}
+.title a:hover{
+    text-decoration: none;
+}
+.title h1{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+.content{
+    text-align: center;
+    padding: 1.5%;
+}
+.container-fluid h4{
+    padding: 1.5%;
+    color: #9f98de;
+    font-weight: bold;
+}
+.btn{
+    border-color: transparent;
+}
+.btn-primary{
+    color: black;
+    background-color: #f6ea74;
+}
+.btn-primary:hover{
+    color: black;
+    background-color: #ffe100;
+    border-color: transparent;
+}
+.btn-primary:disabled{
+    color: black;
+    background-color: #ffe100;
+    border-color: transparent;
+}
+.add{
+    color: white;
+    background-color: #df96cd;
+    width: 20%;
+    font-size: 20px;
+}
+.add:hover{
+    color: white;
+    background-color: #9f98de;
+}
+.error{
+    margin: auto;
+}
+.invalid{
+    border-color: red;
+}
+.info-block-wrapper{
+    margin: 10px -5px;
+    position: relative;
+}
+.info-block{
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.info-block:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.info-block .options{
+    text-align: right;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.info-block .options .btn{
+    width: 150px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.info-block .title{
+    text-align: left;
+    padding: 20px;
+}
+.info-block .name{
+    display: inline-block;
+    padding: 10px;
+}
+.info-block .details{
+    font-style: italic;
+}
+.info-block .title h5{
+    color: #9f98de;
+    font-weight: bold;
+}
+.info-block .name h5{
+    color: #9f98de;
+    font-weight: bold;
+}
+.info-block .description{
+    padding: 30px;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 10%;
+}
+.row-flex{
+    display: flex;
+}
+.label{
+    text-align: right;
+}
+.button-block{
+    float: right;
+}
+.button-block button{
+    margin-left: 20px;
+}
+div.modal-content {
+    color: black;
+}
+.info{
+    width: 70%;
+    margin: auto;
+}
+.info{
+    font-size: 18px;
+}
+.info h4{
+    color: #9f98de;
+}
+.info h3{
+    color: #9f98de;
+}
+.info p{
+    float: left;
+}
+.info .chapter{
+    font-size: 20px;
+    font-weight: bold;
+    color: #df96cd;
+    width: 100%;
+}
+.info .chapter i{
+    margin-left: 10px;
+}
+.info ul li, .payment ul li{
+    text-align: left;
+}
+.payment-technology{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.payment-technology i{
+    color: #9f98de;
+    font-size: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border-radius: 5px;
+    background: #89d0e2;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: white;
+    float: left;
+}
+.custom-file-upload i{
+    margin-left: 10px;
+}
+.custom-file-upload:hover{
+    background: #df96cd;
+}
+.file-name{
+    margin-left: 10px;
+    float: left;
+}
+.failed{
+    color: red;
+}
+.success{
+    color: green;
+}
+.photo, .logo{
+    text-align: center;
+}
+.photo img{
+    width: 70%;
+    border-radius: 50%;
+}
+.logo img{
+    width: 70%;
+}
+.admin{
+    width: 50%;
+    margin: auto;
+}
+.admin button{
+    color: white;
+    background-color: #df96cd;
+}
+.admin button:hover{
+    color: white;
+    background-color: #9f98de;
+}
+.book-container{
+    padding: 10px;
+}
+.book{
+    height: 100%;
+    border-radius: 5px;
+    position: relative;
+    padding: 20px;
+}
+.book:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.book .cover img{
+    height: 230px;
+    width: auto;
+    margin: auto;
+}
+.book .title{
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+.book .title h5{
+    color: #df96cd;
+    font-weight: bold;
+    font-size: 20px;
+}
+.book .details{
+    font-size: 14px;
+    margin-bottom: 20%;
+}
+.book .options{
+    margin-bottom: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.show-book{
+    margin: auto;
+    width: 90%;
+}
+.show-book img{
+    height: 400px;
+    width: auto;
+    margin: auto;
+}
+.show-book .buttons button{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.show-book p{
+    text-align: left;
+}
+.show-book h5{
+    color: #9f98de;
+    font-weight: bold;
+}
+.show-book .description p{
+    text-align: justify;
+}
+.book-name{
+    text-align: center;
+}
+.book-name h4{
+    color: #df96cd;
+    margin: auto;
+}
+.book-name i{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.description-items{
+    font-weight: bold;
+}
+.description-items a{
+    color: #9f98de;
+}
+.description-items a:hover{
+    color: #df96cd;
+    text-decoration: none;
+}
+.container-fluid{
+    padding: 0 !important;
+}
+.btn-link{
+    color: #9f98de;
+}
+.btn-link:hover{
+    text-decoration: none !important;
+    color: #df96cd;
+}
+.filter-menu{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.comment{
+    width: 80%;
+    margin: auto;
+}
+.comment-info p{
+    text-align: left;
+}
+.comment-text{
+    text-align: justify;
+}
+.comment-buttons-cover{
+    margin: auto;
+}
+.comment-buttons{
+    margin-left: auto;
+    margin-right: 0px;
+}
+.comment-buttons .btn-primary{
+    margin-left: 20px;
+}
+.items{
+    width: 80%;
+    margin: auto;
+}
+.items .row h3{
+    width: 100%;
+    text-align: center;
+}
+.items .row a{
+    width: 100%;
+    text-align: center;
+}
+.price p{
+    width: 100%;
+    text-align: right;
+    font-size: 18px;
+    padding: 20px;
+}
+.orders table{
+    width: 90%;
+    margin: auto;
+}
+.rights{
+    padding-top: 20px;;
+}
+.rights table{
+    width: 90%;
+    margin: auto;
+}
+.orders table tbody tr td p{
+    text-align: left;
+}
+
